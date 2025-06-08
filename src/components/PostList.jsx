@@ -3,7 +3,6 @@ import { Card, CardContent, CardActions, Button, Typography, Grid } from '@mui/m
 
 function PostList({ posts }) {
   const handlePostClick = (id) => {
-
     window.open(`/dados/${id}`, '_blank');
   };
 
